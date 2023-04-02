@@ -1,4 +1,4 @@
-**Clone repository and installing virtual environment:** 
+1. **Clone repository and installing virtual environment:** 
 - Open terminal and run the following code one by one :
 ```
 git clone https://github.com/Tushar-04/Athena.git
