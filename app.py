@@ -7,6 +7,9 @@ app=Flask(__name__)
 CORS(app)
 mongoDB=MongoConnector()
 
+@app.route("/")
+def hello():
+    return jsonify({"Msg":"Hello"})
 
 @app.route("/get_available_students",methods=["GET"])
 def get_available_students():
